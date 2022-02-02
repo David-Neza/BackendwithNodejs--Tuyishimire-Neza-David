@@ -4,6 +4,6 @@ const router = express.Router();
 
 //router.post('/comment', commentController);
 
-router.post('/addComment/:id', commentController.createComment);
+router.post('/addComment/:id',commentController.createComment);
 
 export default router
